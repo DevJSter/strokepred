@@ -11,7 +11,7 @@ import pickle
 
 app = Flask(__name__)
 
-with open('models/rf.pkl', 'rb') as file:
+with open('rf.pkl', 'rb') as file:
     heartstroke_model = pickle.load(file)
 
 
